@@ -1,0 +1,56 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+
+
+body { background-color: #B9E9F9;
+
+}
+
+#logo { width: 150px;
+		height: 150px;	
+ }
+
+h1 {text-align: center;}
+
+
+.content {
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+
+}
+
+.menu {
+	flex-direction: column;
+	flex: 1;
+}
+
+.main {
+	flex-direction: column;
+	flex: 2;
+	min-width: 85%
+}
+ a {
+	color: #0254EB
+}
+a:visited {
+	color: #0254EB
+}
+a.morelink {
+	text-decoration:none;
+	outline: none;
+}
+
+.morecontent span {
+	display: none;
+}
+.news {
+	width: 75%;
+	margin: 10px; 
+
+
